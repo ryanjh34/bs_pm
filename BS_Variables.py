@@ -3,7 +3,7 @@ import numpy as np
 from datetime import datetime, timedelta
 import pytz
 import yfinance as yf
-from fredapi import Fred
+from fredapi import fred
 
 fred = Fred(api_key='721f0a5be3b2e6f7f8651124afd64889')
 
