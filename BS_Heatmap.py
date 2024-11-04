@@ -1,13 +1,6 @@
 import streamlit as st
 
-# Apply custom CSS for left alignment
-st.markdown("""
-    <style>
-    .stTextInput label {
-        text-align: left;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+st.columns(spec, *, gap="small", vertical_alignment="top")
 
 # Header
 st.write("# Black Scholes Pricing Model - Interactive Heatmap")
