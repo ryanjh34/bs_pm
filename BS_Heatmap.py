@@ -5,7 +5,7 @@ st.set_page_config(page_title="Split Layout Example", layout="wide")
 
 # Create a sidebar for inputs
 st.sidebar.title("Black-Scholes Pricing Model")
-stock_ticker = st.sidebar.text_input("Enter a stock ticker:")
+stock_ticker = st.sidebar.text_input("Stock Ticker")
 input_number = st.sidebar.number_input("Enter a number:", min_value=0)
 
 # Main area
