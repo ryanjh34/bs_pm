@@ -1,4 +1,1 @@
-streamlit
-yfinance
-fredapi
-scipy
+
