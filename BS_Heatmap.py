@@ -18,8 +18,8 @@ st.markdown(
 )
 
 # Create a sidebar for inputs
-st.sidebar.title("Input Section")
-input_text = st.sidebar.text_input("Enter something:")
+st.sidebar.title("Black-Scholes Pricing Model")
+stock_ticker = st.sidebar.text_input("Enter a stock ticker:")
 input_number = st.sidebar.number_input("Enter a number:", min_value=0)
 
 # Main area
