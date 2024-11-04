@@ -9,7 +9,7 @@ risk_free_rate = 4.25
 st.sidebar.title("Black-Scholes Pricing Model")
 stock_ticker = st.sidebar.text_input("Stock Ticker")
 strike_price = st.sidebar.number_input("Strike Price", min_value=0)
-expiration_date = st.sidebar.text_input("Expiration Date (YYYY-MM-DD)", min_value=0)
+expiration_date = st.sidebar.text_input("Expiration Date (YYYY-MM-DD)")
 st.sidebar.text(f"Current Risk-Free Rate: {risk_free_rate:.2%}")
 
 # Main area
