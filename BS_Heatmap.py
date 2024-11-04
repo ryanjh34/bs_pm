@@ -6,3 +6,5 @@ st.write("""
 """)
 
 ticker_symbol = st.text_input("Enter a stock ticker:", "")
+
+st.sidebar.ticker_symbol
