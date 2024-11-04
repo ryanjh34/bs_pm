@@ -5,7 +5,7 @@ import pytz
 import yfinance as yf
 from fredapi import fred
 
-fred = Fred(api_key='721f0a5be3b2e6f7f8651124afd64889')
+fred = fred(api_key='721f0a5be3b2e6f7f8651124afd64889')
 
 # get current stock price (S)
 def get_current_stock_price(ticker_symbol):
