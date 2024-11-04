@@ -6,6 +6,3 @@ st.write("""
 """)
 
 ticker_symbol = st.text_input("Enter a stock ticker:", "")
-
-strike_price = st.number_input("Enter the strike price:", min_value=0.0, format="%.2f")
-option_price = bs_calc.get_option_details(strike_price)
