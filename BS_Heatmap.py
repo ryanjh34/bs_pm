@@ -3,19 +3,7 @@ import streamlit as st
 # Set the page configuration
 st.set_page_config(page_title="Split Layout Example", layout="wide")
 
-# Style the main area
-st.markdown(
-    """
-    <style>
-    .main-background {
-        background-color: #000000; /* Black background for the main area */
-        color: white; /* White text for contrast */
-        padding: 20px; /* Padding for the content */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
 
 # Create a sidebar for inputs
 st.sidebar.title("Black-Scholes Pricing Model")
