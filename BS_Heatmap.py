@@ -4,7 +4,7 @@ import streamlit as st
 st.write("# Black Scholes Pricing Model - Interactive Heatmap")
 
 # Create two columns with specified width
-col1, col2 = st.columns([3, 1])  # Adjust the ratios as needed
+col1, col2 = st.columns(2)  # Adjust the ratios as needed
 
 # Content in the left column
 with col1:
