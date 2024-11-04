@@ -9,7 +9,7 @@ col1, col2 = st.columns([3, 1])  # Adjust the ratios as needed
 # Content in the left column
 with col1:
 # Left-aligned input field for ticker symbol
-ticker_symbol = st.text_input("Enter a stock ticker:", "")
+    ticker_symbol = st.text_input("Enter a stock ticker:", "")
 
 # Content in the right column (optional)
 with col2:
